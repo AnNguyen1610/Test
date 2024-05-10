@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Button.uss?fileID=7433441132597879392&amp;guid=fdd1cc19a2a66c94c81b9d7c4b1b97b5&amp;type=3#Button" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1; height: 90px; align-items: center; top: 362px; position: absolute; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; align-self: flex-start; width: 695px; left: 1px; flex-basis: 20px; padding-bottom: 0; padding-left: 15px; padding-right: 15px;">
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:Button text="Stop" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:Button text="Random color" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" style="text-overflow: clip; white-space: nowrap; align-items: flex-end; justify-content: flex-start; align-self: auto; flex-wrap: nowrap; flex-basis: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
